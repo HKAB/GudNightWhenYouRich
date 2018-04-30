@@ -1,4 +1,4 @@
-Django==1.9.8
+Django==2.0.4
 gunicorn==19.6.0
 celery==4.0.2
 requests==2.18.4
