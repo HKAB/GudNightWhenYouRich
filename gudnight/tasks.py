@@ -6,8 +6,8 @@ import lxml.html
 @task()
 def send_message():
 
-    access_token = 'EAAAAUaZA8jlABAGUmbdN9KSuJr9ZBhBpLIsgFUVPmZAQwcUUZB3EsQQa9PKn6S6m0pZCwEpZBngHG1Qxuk0jkkFmAWv0Gcs8xntvhpZCBV9wsPNlOXmTYinCE8WjAp0XBWVcnt3OWcKil5TlGEE4bKcNoFF77h8xmgZD'
-    appid = '350685531728'
+    access_token = ''
+    appid = ''
     s = requests.Session()
     r = s.get('https://api.facebook.com/method/auth.getSessionforApp?access_token=' + access_token +'&format=json&new_app_id=' + appid +'&generate_session_cookies=1')
     cookies = {}
