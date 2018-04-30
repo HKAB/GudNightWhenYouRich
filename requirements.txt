@@ -1,0 +1,6 @@
+Django==1.9.8
+gunicorn==19.6.0
+celery==4.0.2
+requests==2.18.4
+lxml==4.2.1
+redis==2.10.6
