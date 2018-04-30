@@ -26,7 +26,7 @@ SECRET_KEY = 'ka+^*176u)(yo)@nx@gj@j5(b&#9u)y2-$2w(gz1qzy8v)$@b!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gudnai.herokuapp.com']
 
 
 # Application definition
